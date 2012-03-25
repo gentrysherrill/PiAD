@@ -1,0 +1,87 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+
+
+.piad_index {
+  background: #7f7f7f;
+  border: 0px;
+}
+  
+  #piad_header {
+    background: #2e2e2e;
+    height: 110px;
+    width: 100%;
+	margin: 0px;
+	border: none;
+  }
+
+  #piad_header #piad_top_menu {
+    height: 100%;
+	width: 100%;
+  }
+
+  .piad_form {
+    fieldset {
+      background: #f0f0f0;
+	  border: {
+	    color: #2e2e2e;
+		style: solid;
+	  }
+	  legend {
+	    color: #2d2d2d;
+	    background: #f0f0f0;
+	    font-family: sans-serif;
+	    padding: 0.2em 1em;
+	  }
+    }
+    form {
+      label {
+	    width: 10em;
+	    float: left;
+	    text-align: right;
+	    padding-top: 0.2em;
+	    margin-right: 0.1em;
+	    display: block;
+	  }
+	
+	  select, textarea, input {
+	    margin-left: 0.5em;
+	  }
+	
+	  .submit {
+	    margin-left: 4em;
+	  }
+	
+	  br {
+	    display: none;
+	  }
+    }
+	.home_text {
+      div {
+        p {
+          h1 {
+            text-align: center;
+            margin-left: 100px;
+            margin-right: 100px;
+          }
+
+          h3 {
+            text-align: left;
+            margin-left: 100px;
+            margin-right: 100px;
+          }
+	    }
+    }
+  }
+}
